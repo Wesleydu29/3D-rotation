@@ -3,17 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <title>3D-rotation</title>
 </head>
 <body>
+    <input type="checkbox" id="toggle"/>
     <div class="layer" id="layer1">
+        <div class="text">Orange</div>
         <div class="can-container">
             <img src="./images/canette.png" class="can-img"/>
             <img src="./images/wrapper1.png" class="wrapper"/>
         </div>
-        <div class="text">Orange</div>
+        <div class="fruits">
+            <img src="./images/orange-3.png" class="fruit"/>
+            <img src="./images/orange-2.png" class="fruit"/>
+            <img src="./images/orange-1.png" class="fruit"/>
+        </div>
+        <label for="toggle">Click to Slide</label>
+    </div>
 
+    <div class="layer" id="layer2">
+        <div class="text">Pineapple</div>
+        <div class="can-container">
+            <img src="./images/canette.png" class="can-img"/>
+            <img src="./images/wrapper2.png" class="wrapper"/>
+        </div>
+        <div class="fruits">
+            <img src="./images/pineapple-3.png" class="fruit"/>
+            <img src="./images/pineapple-2.png" class="fruit"/>
+            <img src="./images/pineapple-1.png" class="fruit"/>
+        </div>
+        <label for="toggle">Click to Slide</label>
     </div>
     
 </body>
