@@ -4,3 +4,28 @@ body{
     margin: 0;
     padding: 0;
 }
+#layer1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#layer1 .can-container{
+    width: 240px;
+    position: relative;
+    overflow: hidden;
+
+}
+#layer1 .can-container .can-img{
+    width: 100%;
+}
+#layer1 .can-container .wrapper {
+    position: absolute;
+    height: 90%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
+
+}
